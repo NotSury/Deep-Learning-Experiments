@@ -1,0 +1,12 @@
+# Libraries imported by the notebooks (and the figure script).
+# The original runs used Google Colab's preinstalled environment; exact versions
+# were not recorded, so no versions are pinned here.
+torch
+torchvision
+numpy
+scipy          # notebook 01: norm.cdf / norm.pdf for GELU
+matplotlib
+torchsummary   # imported in notebook 03 setup cell
+Pillow         # imported in notebook 03 setup cell (PIL.Image)
+requests       # imported in notebook 03 setup cell
+gdown          # notebook 03: dataset download via `!gdown`

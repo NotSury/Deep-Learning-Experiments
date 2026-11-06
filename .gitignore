@@ -1,0 +1,30 @@
+# Original assignment submission (contains personal details, full assignment
+# text and course-provided material). Kept locally; not intended for publication.
+original_submission/
+
+# Datasets downloaded by the notebooks
+data/
+FIT5215_Dataset/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
